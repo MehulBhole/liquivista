@@ -1,9 +1,4 @@
 spring:
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:8080/realms/liqui-vista
 
   datasource:
     url: jdbc:postgresql://localhost:5432/product-management-service

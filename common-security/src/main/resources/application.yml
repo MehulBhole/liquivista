@@ -1,0 +1,8 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9090/realms/liqui-vista
+          jwk-set-uri: http://localhost:9090/realms/liqui-vista/protocol/openid-connect/certs
+
